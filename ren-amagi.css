@@ -1634,3 +1634,335 @@
   font-style:italic;
   line-height:1.6;
 }
+
+.fiche2 .r2425 {
+  --alert: #73303a;
+  --alert2: #a64b59;
+  padding: 16px;
+  background: #070a0d;
+  color: var(--text);
+}
+
+.fiche2 .r2425-cronma {
+  margin-bottom: 25px;
+  padding: 17px;
+  background: linear-gradient(135deg, #0c1217, #080b0e);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--gold);
+}
+
+.fiche2 .r2425-cronmatop {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font: 10px monospace;
+  letter-spacing: 1.2px;
+}
+
+.fiche2 .r2425-cronmatop b {
+  color: var(--gold);
+  font-weight: normal;
+}
+
+.fiche2 .r2425-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 17px 0;
+}
+
+.fiche2 .r2425-profile small {
+  color: var(--muted);
+  font: 10px monospace;
+  letter-spacing: 1px;
+}
+
+.fiche2 .r2425-profile h3 {
+  margin: 4px 0;
+  color: var(--text2);
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.fiche2 .r2425-profile span {
+  color: #8e999f;
+  font-size: 11px;
+}
+
+.fiche2 .r2425-score {
+  min-width: 80px;
+  padding: 10px;
+  border-left: 1px solid var(--gold3);
+  text-align: center;
+}
+
+.fiche2 .r2425-score small {
+  display: block;
+}
+
+.fiche2 .r2425-score strong {
+  color: var(--gold);
+  font: 29px Georgia, serif;
+  font-weight: normal;
+}
+
+.fiche2 .r2425-score span {
+  color: var(--muted);
+  font: 10px monospace;
+}
+
+.fiche2 .r2425-status {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 10px;
+  background: #090e12;
+  border: 1px solid var(--line);
+  font: 10px monospace;
+}
+
+.fiche2 .r2425-status span {
+  color: var(--gold);
+}
+
+.fiche2 .r2425-status b {
+  color: #aeb7bc;
+  font-weight: normal;
+}
+
+.fiche2 .r2425-cronma > p {
+  margin: 11px 0;
+  color: #aeb5bb;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.fiche2 .r2425-values {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 14px;
+  padding: 10px;
+  border-top: 1px dashed var(--border);
+  border-bottom: 1px dashed var(--border);
+  font: 10px monospace;
+}
+
+.fiche2 .r2425-values span {
+  color: var(--gold);
+}
+
+.fiche2 .r2425-values i {
+  color: #53616a;
+  font-style: normal;
+}
+
+.fiche2 .r2425-log {
+  position: relative;
+  margin: 25px 0;
+  padding-left: 18px;
+  border-left: 1px solid var(--border);
+}
+
+.fiche2 .r2425-loghead {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  color: var(--muted);
+  font: 10px monospace;
+  letter-spacing: 1.2px;
+}
+
+.fiche2 .r2425-loghead b {
+  color: var(--gold);
+  font-weight: normal;
+}
+
+.fiche2 .r2425-event {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 16px;
+  margin-bottom: 25px;
+}
+
+.fiche2 .r2425-date {
+  height: max-content;
+  padding-top: 6px;
+  border-top: 2px solid var(--gold3);
+  color: var(--gold);
+  font: 16px Georgia, serif;
+}
+
+.fiche2 .r2425-eventbody {
+  padding: 13px 15px;
+  background: #0a0e12;
+  border: 1px solid var(--line);
+}
+
+.fiche2 .r2425-eventbody > span {
+  color: var(--muted);
+  font: 10px monospace;
+  letter-spacing: 1px;
+}
+
+.fiche2 .r2425-eventbody h3 {
+  margin: 5px 0 10px;
+  color: var(--text2);
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+}
+
+.fiche2 .r2425-eventbody > p {
+  margin: 9px 0;
+  color: #aeb5bb;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.fiche2 .r2425-ren {
+  margin-top: 13px;
+  padding: 11px 13px;
+  border-left: 2px solid var(--blue);
+  background: rgba(111, 154, 170, .04);
+  color: #a8b0b5;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.fiche2 .r2425-critical .r2425-date {
+  border-color: var(--alert2);
+  color: var(--alert2);
+}
+
+.fiche2 .r2425-critical .r2425-eventbody {
+  border-color: #42272d;
+}
+
+.fiche2 .r2425-critical .r2425-eventbody > span {
+  color: var(--alert2);
+}
+
+.fiche2 .r2425-loss {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  margin: 14px 0;
+  background: #392229;
+  border: 1px solid #392229;
+}
+
+.fiche2 .r2425-loss p {
+  margin: 0;
+  padding: 9px 10px;
+  background: #0a0d10;
+}
+
+.fiche2 .r2425-loss span {
+  display: block;
+  margin-bottom: 4px;
+  color: #8c7177;
+  font: 10px monospace;
+}
+
+.fiche2 .r2425-loss b {
+  color: #c7b6b9;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+.fiche2 .r2425-alert .r2425-date {
+  border-color: var(--alert);
+  color: var(--alert2);
+}
+
+.fiche2 .r2425-alert .r2425-eventbody {
+  border-left: 2px solid var(--alert);
+}
+
+.fiche2 .r2425-private {
+  margin: 27px 0 20px;
+  padding: 16px;
+  background: #05080a;
+  border: 1px solid #1c2930;
+}
+
+.fiche2 .r2425-privatetop {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 8px;
+  margin-bottom: 13px;
+  border-bottom: 1px dashed #26343c;
+  color: var(--blue);
+  font: 10px monospace;
+  letter-spacing: 1px;
+}
+
+.fiche2 .r2425-privatetop b {
+  color: #687780;
+  font-weight: normal;
+}
+
+.fiche2 .r2425-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.fiche2 .r2425-columns div {
+  padding: 12px;
+  background: #090d10;
+  border-top: 1px solid var(--blue);
+}
+
+.fiche2 .r2425-columns span {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--blue);
+  font: 10px monospace;
+}
+
+.fiche2 .r2425-columns strong {
+  color: #b7c0c5;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.fiche2 .r2425-private > p {
+  margin: 8px 0;
+  color: #9fa8ad;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.fiche2 .r2425-note {
+  margin-top: 20px;
+  padding: 16px 18px;
+  border-left: 2px solid var(--gold);
+  background: rgba(184, 148, 82, .035);
+}
+
+.fiche2 .r2425-note > span {
+  color: var(--gold3);
+  font: 10px monospace;
+  letter-spacing: 1.2px;
+}
+
+.fiche2 .r2425-note p {
+  margin: 9px 0;
+  color: #aeb5bb;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.6;
+}
